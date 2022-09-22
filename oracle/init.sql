@@ -38,7 +38,7 @@ grant connect, resource, dba to ssu02;
 		constraint fk_professor foreign key(dept_id) references ssu02.department(dept_id)
 	);
 
-2
+
 	create table ssu02.course
 	(
 		course_id 	varchar2(10) 	not null,
